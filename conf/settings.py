@@ -9,11 +9,11 @@ LOGFILE = os.path.join(LOGDIR,'hcs.log')
 # 企业微信j配置：接口地址，CorpID是企业号的标识, corpsecretSecret是管理组凭证密钥，和微信告警接收者
 WECOM_BASEURL = "https://qyapi.weixin.qq.com/cgi-bin"
 CORPID = ''
-CORPSECRET = '-mw3UdVM'
+CORPSECRET = ''
 WECHAT_USERS = ['','']
 
 # hcs 北向 API 基础地址和北向接口的用户名密码
-HCS_BASEURL = "https://oc.huawei.cloud:26335"
+HCS_BASEURL = "https://oc.xxx.xxx:26335"
 USERNAME = ""
 PASSWORD = ""
 
